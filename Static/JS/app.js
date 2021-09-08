@@ -2,7 +2,7 @@
 const tableData = data;
 
 // // Reference the HTML table using d3
-// var tbody = d3.select("tbody");
+var tbody = d3.select("tbody");
 
 // // Build table for UFO sighting data
 // function buildTable(data) {
@@ -33,10 +33,9 @@ function buildTable(data) {
       Object.values(dataRow).forEach((val) => {
         let cell = row.append("td");
         cell.text(val);
-        }
-      );
+      });
     });
-  }
+}
 
 // function handleClick() {
 //     let date = d3.select("#datetime").property("value");
