@@ -19,6 +19,8 @@ Header/Subheader and Paragraph
 - "UFO Sightings: Fact or Fancy? Ufologists Weigh In"
 - Paragraph gives some back as to why this data is being presented
 
+![InkedTable_Webpage_LI](https://user-images.githubusercontent.com/83401820/132936736-47d39db8-a7c1-450d-b7bf-9d284e99d801.jpg)
+
 Table
 - Includes 7 different columns of information on sightings in the month of January 2010 as reported by witnesses
     - Date
@@ -32,6 +34,8 @@ Table
     - Comments (description of the sighting)
         - the data in this column is not uniformly formatted
             (these are the witnesses own statements)
+            
+![InkedTop_Webpage_LI](https://user-images.githubusercontent.com/83401820/132936737-76e3b09e-1ad7-4463-b1c4-f3d16a1c518f.jpg)
 
 Filter Search Form (NOT CASE SENSITIVE)
 - Allows the user to filter search by:
@@ -40,6 +44,8 @@ Filter Search Form (NOT CASE SENSITIVE)
     - State
     - Country (2-character abbreviation format)
     - Shape
+    
+![FilterExample_Webpage](https://user-images.githubusercontent.com/83401820/132936735-d50cba37-1d03-44aa-9023-20ee0a29dce7.png)
 
 There are two ways to clear the form:
     - 1. Delete all the input in the search fields, or
