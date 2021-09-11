@@ -22,12 +22,17 @@ function buildTable(data) {
     });
   });
 }
+// Create a function that formats the values in each cell
 
 /*
 filters = {
-  cityname: "Sonoma",
-  shape: "circle",
-  statename: "TN"
+ datetime: "1/1/2010",
+    city: "benton",
+    state: "ar",
+    country: "us",
+    shape: "circle",
+    durationMinutes: "5 mins.",
+    comments: "
 }
 */
 
@@ -49,7 +54,7 @@ function updateFilters() {
 
   // 5. If a filter value was entered then add that filterId and value
   // to the filters list. Otherwise, clear that filter from the filters object.
-  if (changedElement) {
+  if (filteredValue) {
     filters[filteredID] = filteredValue
   }
   else {
@@ -69,7 +74,8 @@ function filterTable() {
   // 9. Loop through all of the filters and keep any data that
   // matches the filter values
   Object.entries(filters).forEach(([key, value]) => {
-    filteredData = filteredData.filter(row => row[key] === value);
+    filteredData = filteredData.filter(row => row[key].toLowerCase() === value.toLowerCase());
+
   });
   console.log(filteredData);
 

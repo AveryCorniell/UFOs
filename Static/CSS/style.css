@@ -9,6 +9,6 @@ body {
     text-align: center;
 }
 
-.yellow-background {
-    background-color: yellow;
+td {
+    text-transform: uppercase;
 }
