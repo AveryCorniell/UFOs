@@ -19,7 +19,7 @@ Header/Subheader and Paragraph
 - "UFO Sightings: Fact or Fancy? Ufologists Weigh In"
 - Paragraph gives some back as to why this data is being presented
 
-![InkedTable_Webpage_LI](https://user-images.githubusercontent.com/83401820/132936736-47d39db8-a7c1-450d-b7bf-9d284e99d801.jpg)
+![InkedTop_Webpage_LI](https://user-images.githubusercontent.com/83401820/132936737-76e3b09e-1ad7-4463-b1c4-f3d16a1c518f.jpg)
 
 Table
 - Includes 7 different columns of information on sightings in the month of January 2010 as reported by witnesses
@@ -35,7 +35,7 @@ Table
         - the data in this column is not uniformly formatted
             (these are the witnesses own statements)
             
-![InkedTop_Webpage_LI](https://user-images.githubusercontent.com/83401820/132936737-76e3b09e-1ad7-4463-b1c4-f3d16a1c518f.jpg)
+![InkedTable_Webpage_LI](https://user-images.githubusercontent.com/83401820/132936736-47d39db8-a7c1-450d-b7bf-9d284e99d801.jpg)
 
 Filter Search Form (NOT CASE SENSITIVE)
 - Allows the user to filter search by:
